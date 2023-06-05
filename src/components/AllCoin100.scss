@@ -1,0 +1,48 @@
+.AllCoin100 {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #27292d 0%, #27292d);
+    }
+    h1{
+    color:#AEAEAE;
+    }
+    input{
+    padding-left: 5px;
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+    color: #AEAEAE;
+    }
+    table{
+    width: 1000px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    }
+    thead{
+    background-color: #AEAEAE;
+    color: white;
+    text-align: center;
+    }
+    tbody > tr{
+    text-align: right;
+    color: #AEAEAE;
+    }
+    .rank{
+    text-align: center;
+    font-weight: bold;
+    }
+    .logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    gap: 10px;
+    }
+    .symbol{
+    text-align: center;
+    }
